@@ -1,0 +1,23 @@
+# Environment variables (SECRETS — kabhi commit mat karo)
+.env
+.env.local
+*.env
+
+# Node modules (frontend dependencies — reinstallable hain, repo mein rakhne ki zaroorat nahi)
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+backend/venv/
+
+# Build outputs
+dist/
+build/
+
+# OS/editor junk
+.DS_Store
+.vscode/
